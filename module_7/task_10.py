@@ -8,3 +8,5 @@ for card in range(1, num):
   full += card
 card1 = full - lost
 print('Номер потерянной карточки:', card1)
+
+#зачтено
