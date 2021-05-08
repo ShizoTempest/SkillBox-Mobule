@@ -1,4 +1,3 @@
-sector = 0
 breach = 0
 number = 30
 for sector in range(0, 6):

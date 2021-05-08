@@ -1,10 +1,15 @@
-month = 0
 summ = 0
-for month in range(0, 12):
-  income = int(input('Какая зарплата в этот месяц: '))
+for month in range(12):
+  print('Номер месяца:', month + 1)
+  while True:
+    income = int(input('Какая зарплата в этот месяц: '))
+    if income < 0:
+      print('Ошибка ввода, зарплата должна быть положительная.')
+    else:
+      break
   summ += income
-  month += 1
-print('Средняя зарплата:', summ)
+summ /= 12
+print('Средняя зарплата:', round(summ, 2))
 
 # - Счетчик month - лишний. Цикл for умеет работать без принудительного счетчика,
 # также не нужна инициализация этой переменной
