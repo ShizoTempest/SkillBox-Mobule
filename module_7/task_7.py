@@ -7,5 +7,3 @@ for number in range(a, b + 1):
     summ += number
     count += 1
 print('Среднее арифметическое чисел, подходящее под задачу', summ / count)
-
-#неверно работает. Проверь условие
