@@ -3,5 +3,3 @@ for numbers in 114, 12, 14, 10605, 4907, 450:
         print('Число подходит', numbers)
     else:
         print('Число не подходит', numbers)
-
-# зачтено

@@ -12,11 +12,10 @@ while True:
     bg = 'GBG'
     boy, girl = girl, boy
   while boy != girl:
-    for i in range(1, boy, 2):
-        sit_down += bg
-        boy -= 2
-        girl -= 1
-    bg = 'BG'
+    sit_down += bg
+    boy -= 2
+    girl -= 1
+  bg = 'BG'
   for i in range(1, boy+1):
     sit_down += bg
   print(sit_down)

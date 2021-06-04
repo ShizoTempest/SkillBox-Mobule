@@ -1,5 +1,5 @@
 while True:
-  x = int(input('Введите число X от 1 до 6: '))
+  x = int(input('Введите число X от 1 до 6, которые не равнялось n во 2 степени: '))
   up = 1
   down = 1
   for num in range(1, 7):
