@@ -8,4 +8,7 @@ while True:
         break
 for num in range(n + 1):
     summ = (-1) ** num * 1 / 2 ** num
-print('Сумма состовляем:', summ)
+print('Сумма составляет:', summ)
+
+# сумма не считается. Результат выводит неверный
+

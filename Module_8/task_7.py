@@ -12,3 +12,5 @@ for month in range(num - 1):
   summ += expenses - educational_grant
   print(expenses, summ)
 print('Не достаточно средств:', round(summ, 2), 'Попробуйте поросить эту суммы у родителей.')
+
+#Зачтено
