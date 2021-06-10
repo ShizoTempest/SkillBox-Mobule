@@ -26,3 +26,4 @@ while True:
   # Введите количество девочек: 5
   # GBGGBGGBGGBGGBG
 
+# зачтено
