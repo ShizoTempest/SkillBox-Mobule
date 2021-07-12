@@ -5,7 +5,7 @@ summ = 0
 count = 0
 if a > b:
   a, b = b, a
-for num in range(a, b):
+for num in range(a, b + 1):
     if num % с == 0:
         summ += num
         count += 1

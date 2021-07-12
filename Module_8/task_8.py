@@ -7,7 +7,7 @@ while True:
     else:
         break
 for num in range(n + 1):
-    summ = (-1) ** num * 1 / 2 ** num
+    summ += (-1) ** num * 1 / 2 ** num
 print('Сумма составляет:', summ)
 
 # сумма не считается. Результат выводит неверный
