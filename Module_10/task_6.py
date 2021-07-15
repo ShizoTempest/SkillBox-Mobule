@@ -8,3 +8,6 @@ for count in range(1, num + 1):
   summ += factor
 
 print('Сумма факториалов числа', num , ':', summ)
+
+
+#зачтено

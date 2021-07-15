@@ -1,20 +1,27 @@
 count = int(input('Введите кол-во чисел: '))
 maxium = 0
 while count > 0:
-  count -= 1
-  summ = 0
+    count -= 1
+    summ = 0
 
-  while True:
-    num = int(input('Ведите натуральное число: '))
-    if num < 1:
-      print('Ошибочка. Попытайтесь снова.')
-    else:
-      break
+    while True:
+        num = int(input('Ведите натуральное число: '))
+        if num < 1:
+            print('Ошибочка. Попытайтесь снова.')
+        else:
+            break
 
-  for num1 in str(num):
-    summ += int(num1)
-  if summ > maxium:
-    maxium = summ
-    num2 = num
+    for num1 in str(num):
+        summ += int(num1)
+    if summ > maxium:
+        maxium = summ
+        num2 = num
 
 print('Наибольшее число из суммы цифр:', num2, ', его сумма:', maxium)
+
+#принято.
+#Обрати внимание, что у тебя даже pycharm подчеркивает переменную num2.
+# Несмотря на то, что в этой программе все работает без ошибок, в будущем это может принести неприятный сюрприз,
+# поэтому лучше объявлять такие переменные до использования их в теле структуры.
+# В данном случае ругается на то, что если условие if summ > maxium: не сработает, то num2 будет не объявлена и
+# тогда программа сломается.
