@@ -1,12 +1,13 @@
-n = int(input('Введите число: '))
-for row in range(n):
-  dop = ''
-  for col in range(n + 1):
-    if col <= row:
-      print(n - col, end = '')
-      dop = str(n - col) + dop
-    elif col == n:
-      print(dop)
+change = int(input('Введите число: '))
+
+for num in range(change):
+  space = ''
+  for num1 in range(change + 1):
+    if num1 <= num: #Если считаеться не правильно, повернуть стрелку
+      print(change - num1, end = '')
+      space = str(change - num1) + space #Для подсета, менять в случае бесконечного высчета
+    elif num1 == change:
+      print(space)
     else:
       print('.', end = '')
-      dop = '.' + dop
+      space = '.' + space
