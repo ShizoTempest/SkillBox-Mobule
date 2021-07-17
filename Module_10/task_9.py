@@ -16,3 +16,5 @@ for first in range(change):
     else:
       print(' ', end = '\t')
   print()
+
+  #зачтено

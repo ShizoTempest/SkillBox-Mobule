@@ -11,3 +11,5 @@ for num in range(change):
     else:
       print('.', end = '')
       space = '.' + space
+
+# Зачтено
