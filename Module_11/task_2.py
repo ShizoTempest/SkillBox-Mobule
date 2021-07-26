@@ -12,3 +12,5 @@ while count != amount:
         enter = math.floor(num)
         print('x =', enter, 'exp(x) =', math.exp(enter))
     amount += 1
+
+# зачтено

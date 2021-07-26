@@ -4,4 +4,6 @@ dol = 1.25
 
 pursche = round(cost * dol * ru, 2)
 
-print('Стоимость продкта в рублях:', pursche)
+print('Стоимость продукта в рублях:', pursche)
+
+# Зачтено
