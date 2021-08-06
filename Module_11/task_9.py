@@ -20,3 +20,5 @@ while result >= 0:
   else:
     print(krat, krat1)
   break
+
+# зачтено

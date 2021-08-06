@@ -10,3 +10,5 @@ if earth >= v:
 else:
     result = round(v / earth, 3)
     print('Объём планеты Земля меньше в', result)
+
+# зачтено

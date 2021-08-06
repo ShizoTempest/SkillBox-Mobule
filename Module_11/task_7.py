@@ -32,3 +32,5 @@ if OptionHoris == 1 or OptionVertic == 2 or OptionHoris == 2 or OptionVertic == 
     print('Да, конь может хоть в эту точку')
 else:
     print('Нет, конь не может ходить в эту точку')
+
+# зачтено
