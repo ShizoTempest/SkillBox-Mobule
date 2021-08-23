@@ -34,3 +34,5 @@ def base():
         base()
 
 base()
+
+# принято

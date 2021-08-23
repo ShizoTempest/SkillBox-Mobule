@@ -13,3 +13,5 @@ def count_letters():
     print('Количество букв', bukva + ':', count2)
 
 count_letters()
+
+# принято

@@ -11,3 +11,5 @@ num = True
 while num:
   num = abs(int(input('Введите число: ')))
   func(num)
+
+  # принято

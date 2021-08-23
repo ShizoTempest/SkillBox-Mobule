@@ -6,3 +6,5 @@ def point():
     summ += count
   print('Сумма всех чисел от 1 до', num, 'включительно:', summ)
 point()
+
+# принято
