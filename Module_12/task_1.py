@@ -8,3 +8,4 @@ def point():
 point()
 
 # принято
+

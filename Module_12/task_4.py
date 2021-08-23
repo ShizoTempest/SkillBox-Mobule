@@ -13,3 +13,4 @@ while num:
   func(num)
 
   # принято
+

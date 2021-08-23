@@ -14,3 +14,4 @@ def negative():
 test()
 
 # принято
+
