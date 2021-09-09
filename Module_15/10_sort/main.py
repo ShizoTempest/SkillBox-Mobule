@@ -11,3 +11,5 @@ for i1 in range(count):
         if num_list[i] < num_list[i1]:
             num_list[i1], num_list[i] = num_list[i], num_list[i1]
 print('Отсортированный список:', num_list)
+
+# Зачтено
