@@ -17,7 +17,7 @@ for j in range(0, len(num)):
             S_list.append(num[k])
         S_list.reverse()
         break
-    F_list
+    F_list = []
 
 print('Исходный список:', num)
 print('Нужно чисел для палиандрома:', len(S_list))
