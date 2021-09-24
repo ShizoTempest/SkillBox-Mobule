@@ -5,7 +5,7 @@ while True:
     chose = input('Гость пришел или ушел? ')
     if chose == 'Пора спать' or chose == 'пора спать':
         break
-    people = input('Имя гсотя: ')
+    people = input('Имя гостя: ')
     flag = False
     for i in guests:
         if people == i and chose == 'ушел':
@@ -27,3 +27,7 @@ while True:
         guests.remove(people)
     elif chose == 'пришел':
         guests.append(people)
+
+
+# TODO Не выводится итоговое сообщение, когда все ложатся спать
+

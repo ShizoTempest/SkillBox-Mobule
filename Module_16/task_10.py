@@ -20,5 +20,8 @@ for j in range(0, len(num)):
     F_list = []
 
 print('Исходный список:', num)
-print('Нужно чисел для палиандрома:', len(S_list))
+print('Нужно чисел для палиндрома:', len(S_list))
 print('Список этих чисел:', S_list)
+
+
+# зачтено

@@ -13,4 +13,8 @@ for j_class in range(len_class):
     num = max(S_class)
     sum_class.append(num)
     S_class.remove(num)
-print('Классы в одной ширинге:', sum_class)
+print('Классы в одной шеренге:', sum_class)
+
+
+# TODO 1. Ответ выведен неверно. Требовалось вывести учеников в порядке возрастания, а не убывания
+# TODO 2. Задача можно решить в 5 строк, без циклов с помощью метода sort(), либо функции sorted()

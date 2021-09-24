@@ -22,3 +22,6 @@ for j in range(count_receipt):
 print('Баланс друзей')
 for general_sum in list_receipt:
     print(f'{general_sum[0]} : {general_sum[1]}')
+
+
+# зачтено
