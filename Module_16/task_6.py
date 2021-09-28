@@ -1,15 +1,13 @@
-def incom(list_a, count):
+def incom(count):
     list_a = []
     for i in range(count):
-        num = int('Введите число: ')
+        num = int(input('Введите число: '))
         list_a.append(num)
     return list_a
-F_list = []
-S_list = []
-F_list = incom(F_list, 3)
+F_list = incom(3)
 print('\nПервый список:', F_list)
 print()
-S_list = incom(S_list, 7)
+S_list = incom(7)
 print('\nВторой список:', S_list)
 F_list.extend(S_list)
 for i in F_list:

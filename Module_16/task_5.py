@@ -17,7 +17,7 @@ for i in range(count):
     while True:
         chose = input(f'Название {i + 1} песни: ')
         for j in violator_songs:
-            if j.index(0) == chose:
+            if j[0] == chose:
                 num = j
                 flag = True
                 break
@@ -25,5 +25,5 @@ for i in range(count):
             break
         else:
             print('Ошибка, такой песни нет.')
-    summ += num.index(1)
+    summ += num[1]
 print('Общее время звучания песен:', round(summ, 2))

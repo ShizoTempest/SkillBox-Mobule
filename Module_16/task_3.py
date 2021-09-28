@@ -4,6 +4,7 @@ name_scrap = input('Название детали: ')
 summ = 0
 count_item = 0
 len_for = 0
+
 for i in shop:
     flag = False
     for j in i:
@@ -12,7 +13,11 @@ for i in shop:
         if j == name_scrap:
             count_item += 1
             flag = True
+    if count_item > 0:
+        flag = True
+
     len_for += 1
+
     if len_for == len_list and flag == True:
         print('Кол-во таких вещей:', count_item)
         print('Общая стоимость:', summ)

@@ -9,7 +9,7 @@ summ = 0
 for j in range(people):
     high = int(input(f'Размер ноги {j - 1} человека: '))
     for k in high_list:
-        if high == k:
+        if high >= k:
             summ += 1
             high_list.remove(k)
 print('\nНаибольшее кол-во людей, которые могут взять ролики:', summ)

@@ -8,6 +8,7 @@ print('Изначальный список:', num_list)
 
 for i1 in range(count):
     for i in range(i1 + 1, count):
-        if num_list[i] < num_list[i1]:
+        if num_list[i] < num_list[i1]: # Используя оператор сравнения, мы сравнимаем текущие и предыдущее значение,
+            # списка, в котором мы получаем, обращаясь к его индексам по итерациям
             num_list[i1], num_list[i] = num_list[i], num_list[i1]
 print('Отсортированный список:', num_list)

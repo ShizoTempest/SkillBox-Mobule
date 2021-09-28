@@ -27,3 +27,4 @@ while True:
         guests.remove(people)
     elif chose == 'пришел':
         guests.append(people)
+print('Пора ложиться спать!')

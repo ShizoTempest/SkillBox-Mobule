@@ -13,4 +13,5 @@ for j_class in range(len_class):
     num = max(S_class)
     sum_class.append(num)
     S_class.remove(num)
+sum_class.sort()
 print('Классы в одной ширинге:', sum_class)
