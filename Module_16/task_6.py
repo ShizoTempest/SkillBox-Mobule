@@ -19,3 +19,6 @@ for i in F_list:
         for _ in range(count - 1):
             F_list.remove(i)
 print('Новый первый список с уникальными элементами:', F_list)
+
+
+# TODO Не работает. Выдает ошибку сразу же.

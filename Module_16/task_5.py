@@ -27,3 +27,13 @@ for i in range(count):
             print('Ошибка, такой песни нет.')
     summ += num[1]
 print('Общее время звучания песен:', round(summ, 2))
+
+
+# TODO Выдает сразу ошибку:
+#  Сколько песен выбрать? 3
+#  Название 1 песни: Halo
+#  Traceback (most recent call last):
+#   File "C:/Users/Amadu/PycharmProjects/Shizo/SkillBox-Mobule/Module_16/task_5.py", line 20, in <module>
+#     if j.index(0) == chose:
+#     ValueError: 0 is not in list
+

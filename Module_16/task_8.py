@@ -16,3 +16,6 @@ while len(people_list) != 1:
     if index > len(people_list):
         index %= len(people_list)
 print('\nОстается человек под номером:', people_list[0])
+
+
+#  Зачтено
