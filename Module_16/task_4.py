@@ -5,7 +5,7 @@ while True:
     chose = input('Гость пришел или ушел? ')
     if chose == 'Пора спать' or chose == 'пора спать':
         break
-    people = input('Имя гсотя: ')
+    people = input('Имя гостя: ')
     flag = False
     for i in guests:
         if people == i and chose == 'ушел':
@@ -28,3 +28,5 @@ while True:
     elif chose == 'пришел':
         guests.append(people)
 print('Пора ложиться спать!')
+
+# зачтено
