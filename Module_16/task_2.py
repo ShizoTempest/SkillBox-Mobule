@@ -14,4 +14,7 @@ for j_class in range(len_class):
     sum_class.append(num)
     S_class.remove(num)
 sum_class.sort()
-print('Классы в одной ширинге:', sum_class)
+print('Классы в одной шеренге:', sum_class)
+
+# Зачтено
+
