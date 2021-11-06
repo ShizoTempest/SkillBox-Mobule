@@ -19,3 +19,5 @@ for i in first_comand:
         break
     count += 1
 print('Список победителей:', Third_list)
+
+# TODO не использовано понимание списка. Переделай с list comprehensions

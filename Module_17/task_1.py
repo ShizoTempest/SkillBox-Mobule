@@ -8,3 +8,6 @@ for i in text:
             break
 print("Список гласных букв:", list_text)
 print('Кол-во их:', len(list_text))
+
+
+# TODO не использовано понимание списка. Переделай с list comprehensions
