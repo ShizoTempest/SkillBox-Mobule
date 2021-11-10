@@ -17,3 +17,5 @@ for i in first_comand:
     count += 1
 
 print('Список победителей:', Third_list)
+
+# TODO не использовано понимание списка. Переделай с list comprehensions

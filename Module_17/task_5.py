@@ -8,3 +8,8 @@ while True:
 start = text.index('h')
 end = text.rindex('h')
 print(text[:start + 1] + text[end - 1: start - 1] + text[end:])
+
+# TODO неверно
+#  Введите текст: lkjhiiiiiiiiiuhl
+# lkjhhl
+# Ответ должен быть: uiiiiiiiii
