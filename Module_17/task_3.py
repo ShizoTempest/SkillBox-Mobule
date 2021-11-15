@@ -10,4 +10,4 @@ Third_list = [(second_comand[count] if first_comand[count] <= second_comand[coun
 
 print('Список победителей:', Third_list)
 
-# TODO не использовано понимание списка. Переделай с list comprehensions
+# Зачтено
