@@ -1,14 +1,7 @@
 text = input('Введите текст: ')
-word_list = 'аеёийоуыэюя'
+world_list = 'аеёиоуыэюя'
 
-list_text = []
-for i in text:
-    for j in word_list:
-        if i == j:
-            list_text.append(j)
-            break
+list_text =[symbol for symbol in text if symbol in world_list]
 
-print("Список гласных букв:", list_text)
+print('Список гласных букв', list_text)
 print('Кол-во их:', len(list_text))
-
-#Как здесь сделать срез в срезе, да и два списка

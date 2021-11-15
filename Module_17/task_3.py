@@ -6,14 +6,6 @@ print('Первая команда:', first_comand)
 second_comand = [round(random.uniform(5.00, 10.00), 2) for _ in range(20)]
 print('Вторая команда:', second_comand)
 
-count = 0
-for i in first_comand:
-    for j in second_comand:
-        if i > second_comand[count]:
-            Third_list.append(i)
-        elif i <= second_comand[count]:
-            Third_list.append(second_comand[count])
-        break
-    count += 1
+Third_list = [(second_comand[count] if first_comand[count] <= second_comand[count] else first_comand[count]) for count in range(20)]
 
 print('Список победителей:', Third_list)
