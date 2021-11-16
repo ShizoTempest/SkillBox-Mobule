@@ -11,10 +11,10 @@ for i in text:
         continue
     word_step = word.index(i)
     if word_step + (step - 1) > len(word):
-        text[count] = word[word_step + (step - 1) - len(word)]
+        text[count] = word[word_step + (step) - len(word)]
         count += 1
         continue
-    text[count] = word[word_step + (step - 1)]
+    text[count] = word[word_step + (step)]
     count += 1
 
 ready_text = ''
