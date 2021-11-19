@@ -10,8 +10,8 @@ for i in text:
         count += 1
         continue
     word_step = word.index(i)
-    if word_step + (step - 1) > len(word):
-        text[count] = word[word_step + (step) - len(word)]
+    if word_step + (step) >= len(word):
+        text[count] = word[word_step + (step)  - len(word)]
         count += 1
         continue
     text[count] = word[word_step + (step)]
