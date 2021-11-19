@@ -21,3 +21,5 @@ ready_text = ''
 for j in text:
     ready_text += j
 print('Зашифрованое сообщение:', ready_text)
+
+# зачтено
