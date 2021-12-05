@@ -24,3 +24,6 @@ text = 'vujgvmCfb tj ufscfu ouib z/vhm jdjuFyqm jt fscfuu uibo jdju/jn' \
        'f"uip'
 word = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 print("i - ", 1, " -------", encrypt(text, 1))
+
+
+# TODO Доделай

@@ -12,3 +12,6 @@ if text[-2] != text[-1]:
     second_text += text[-1] + '1'
 
 print(second_text)
+
+
+# зачтено

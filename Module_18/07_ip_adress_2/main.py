@@ -17,3 +17,14 @@ else:
 
 if first_count == 0 and second_count == 4:
     print('IP-адрес корректен')
+
+
+# TODO Ошибка на первом же примере
+# Введите IP: 128.16.35.a4
+#  128 - не целое число
+#  16 - не целое число
+#  35 - не целое число
+# Traceback (most recent call last):
+#   File "C:/Users/Amadu/PycharmProjects/Shizo/SkillBox-Mobule/Module_18/07_ip_adress_2/main.py", line 12, in <module>
+#     if int(answer_ip[i]) > 255:
+# ValueError: invalid literal for int() with base 10: 'a4'
