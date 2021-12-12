@@ -8,7 +8,7 @@ for i in range(count):
     for j in range(count):
         num += line_1[(i + j) % count]
     if num == line_2:
-        print('Первая строка получается из второй со сдвигом ', line_1)
+        print('Первая строка получается из второй со сдвигом ',  i)
         answer += 1
         break
 if answer == 0:

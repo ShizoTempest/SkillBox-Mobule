@@ -1,19 +1,18 @@
 IP = input('Введите IP: ')
 answer_ip = IP.split('.')
-first_count = 0
-second_count = 0
+ip_num_count = 0
 
 if len(answer_ip) < 4:
     print('Адрес - это четыре числа, разделенные точками')
 else:
-    for i in range(len(answer_ip)):
-        if answer_ip[i].isdigit():
-            second_count += 1
-        if int(answer_ip[i]) > 255:
-            first_count += 1
-            print(f' { answer_ip[i] } превышает 255')
-        else:
-            print(f' { answer_ip[i] } - не целое число')
+    for range_ip in range(len(answer_ip)):
+        if answer_ip[range_ip].isdecimal() == False:
+            print(f' {answer_ip[range_ip]} - не целое число')
+            ip_num_count += 1
+            continue
+        if int(answer_ip[range_ip]) > 255:
+            ip_num_count += 1
+            print(f' { answer_ip[range_ip] } превышает 255')
 
-if first_count == 0 and second_count == 4:
+if ip_num_count == 0:
     print('IP-адрес корректен')

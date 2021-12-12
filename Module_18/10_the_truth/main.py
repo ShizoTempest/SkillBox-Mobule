@@ -23,4 +23,4 @@ text = 'vujgvmCfb tj ufscfu ouib z/vhm jdjuFyqm jt fscfuu uibo jdju/jn' \
        ' jefb/ bnftqbdftO bsf pof ipoljoh sfbuh efbj .. fu(tm pe psfn gp t' \
        'f"uip'
 word = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
-print("i - ", 1, " -------", encrypt(text, 1))
+print(encrypt(text, 1))
