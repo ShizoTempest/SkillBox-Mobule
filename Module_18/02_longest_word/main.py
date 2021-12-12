@@ -7,3 +7,5 @@ for i in range(1, len(line)):
         maximum = line[i]
 
 print(maximum, len(maximum))
+
+# зачтено

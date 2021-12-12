@@ -4,3 +4,6 @@ def capitalize(line):
 
 text = input('Введите текст: ')
 print(capitalize(text))
+
+
+# зачтено
