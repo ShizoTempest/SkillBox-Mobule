@@ -1,4 +1,5 @@
 IP = input('Введите IP: ')
+
 answer_ip = IP.split('.')
 ip_num_count = 0
 
