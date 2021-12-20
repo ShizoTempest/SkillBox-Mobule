@@ -5,6 +5,7 @@ ip_num_count = 0
 
 if len(answer_ip) < 4:
     print('Адрес - это четыре числа, разделенные точками')
+    ip_num_count += 1
 else:
     for range_ip in range(len(answer_ip)):
         if answer_ip[range_ip].isdecimal() == False:
@@ -17,3 +18,8 @@ else:
 
 if ip_num_count == 0:
     print('IP-адрес корректен')
+
+# TODO неверно указывает ответ
+# Введите IP: 34.56.42,5
+# Адрес - это четыре числа, разделенные точками
+# IP-адрес корректен
