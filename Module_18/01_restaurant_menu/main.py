@@ -1,1 +1,5 @@
-# TODO здесь писать код
+menu = input('Доступное меню: ')
+list_menu = menu.split(';')
+len_menu = len(list_menu)
+answer_menu = ', '.join(list_menu)
+print('На данный момент в меню есть:', answer_menu)
