@@ -14,3 +14,5 @@ while True:
             print('Синоним:', str(*new).capitalize())
         else:
             print('Такого слова в словаре нет.')
+
+# TODO исправить дублирование ответа

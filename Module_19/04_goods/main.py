@@ -32,3 +32,5 @@ for key in goods:
         summ += dct['quantity'] * dct['price']
         summ_item += dct['quantity']
     print(f'{key} - {summ_item} шт, стоимость {summ} руб')
+
+# принято
