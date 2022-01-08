@@ -10,7 +10,7 @@ print()
 while True:
     answer_user = input('Нужное число есть среди вот этих чисел: ')
     if answer_user == 'Помогите!':
-        print('Артём мог загадать следующие числа:', sorted(*nums), '\n')
+        print('Артём мог загадать следующие числа:', *sorted(nums), '\n')
         continue
     answer_user = set(answer_user.split())
     if answer_user == {change_num} and len(answer_user) == 1:

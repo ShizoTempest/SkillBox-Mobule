@@ -10,16 +10,17 @@ def revert(name):
     heights[name] = value
     return value
 
-count = int(input())
+count = int(input('Введите количество человек: '))
 main_tree = {}
 
-for _ in range(1, count):
-    line = input()
+for i in range(1, count):
+    line = input(f'{i} пара: ')
     child, parent = line.split()
     main_tree[child] = parent
 
 all_tree = set(main_tree.keys()) | set(main_tree.values())
 heights = {}
+print()
 
 for name in all_tree:
     if name not in heights:

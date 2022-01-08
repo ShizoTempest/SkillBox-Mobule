@@ -1,5 +1,6 @@
 num = int(input('Сколько пар слов? '))
 pair_lst = []
+
 for count in range(num):
     pair = input(f'{count + 1} пара слов(через дефис): ').lower()
     pair_set = set(pair.split(' - '))
@@ -14,3 +15,4 @@ while True:
             print('Синоним:', str(*new).capitalize())
         else:
             print('Такого слова в словаре нет.')
+            break
