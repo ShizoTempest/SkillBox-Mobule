@@ -21,3 +21,5 @@ for num in range(count_songs):
             print('Ошибка: такой песни нет.')
     summ_minutes += violator_songs[song]
 print('Общее время звучания песен:', round(summ_minutes, 2), 'минут')
+
+# принято

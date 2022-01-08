@@ -60,3 +60,5 @@ print(data['ETH'])
 
 data['tokens'][1]["sec_token_info"]['total_price'] = data['tokens'][1]["sec_token_info"].pop('price')
 print(data['tokens'][1]["sec_token_info"])
+
+# принято

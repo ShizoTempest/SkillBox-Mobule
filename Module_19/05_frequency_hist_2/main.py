@@ -25,3 +25,5 @@ print('\nИнвертированный словарь частот:')
 new_dict = invert_hist(hist)
 for key in new_dict:
     print(key, ':', new_dict[key])
+
+# принято

@@ -19,3 +19,5 @@ for city in range(3):
             flag = True
     if flag == False:
         print(f'По городу {name_city} данных нет.')
+
+# принято

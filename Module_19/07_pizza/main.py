@@ -19,3 +19,6 @@ for name, order in sorted(order_dict.items()):
     print(f'{name}:')
     for pizza, amount in sorted(order.items()):
         print('    ', pizza, amount)
+
+
+# TODO ошибка при вводе условия из примера
