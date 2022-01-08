@@ -28,10 +28,3 @@ for name in all_tree:
 
 for name in sorted(heights):
     print(name, heights[name])
-
-# TODO Программа не общается с пользователем;
-#  вылетает на таких условиях:
-#  3
-#  Alexei Peter_I
-#  Peter_I Alexei
-#  Traceback (most recent call last):

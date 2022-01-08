@@ -22,5 +22,3 @@ while True:
     else:
         nums = nums - answer_user
         print('Ответ Артёма: Нет\n')
-
-# TODO Выдает ошибку сортировки
