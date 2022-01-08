@@ -8,10 +8,14 @@ print()
 
 while True:
     word = input('Введите слово: ').lower()
+    count = 0
     for elem in pair_lst:
         if word.lower() in elem:
             new = elem - {word}
             print('Синоним:', str(*new).capitalize())
         else:
-            print('Такого слова в словаре нет.')
-            break
+            count += 1
+            if count == 1:
+                break
+            else:
+                print('Такого слова в словаре нет.')
