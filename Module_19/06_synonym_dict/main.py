@@ -18,3 +18,5 @@ while True:
         if count < 1:
             print('Такого слова в словаре нет.')
             count += 1
+
+# принято
