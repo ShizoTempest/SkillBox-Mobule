@@ -14,9 +14,7 @@ while True:
             new = elem - {word}
             print('Синоним:', str(*new).capitalize())
             count += 1
-        else:
-            if count >= 1:
-                break
-            else:
-                print('Такого слова в словаре нет.')
-                count += 1
+    else:
+        if count < 1:
+            print('Такого слова в словаре нет.')
+            count += 1
