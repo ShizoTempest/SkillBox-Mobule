@@ -21,4 +21,4 @@ for name, order in sorted(order_dict.items()):
         print('    ', pizza, amount)
 
 
-# TODO ошибка при вводе условия из примера
+# принято
