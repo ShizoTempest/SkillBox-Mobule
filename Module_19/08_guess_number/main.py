@@ -3,10 +3,8 @@ import random
 
 max_num = int(input('Введите максимальное число: '))
 change_num = str(random.randint(1, max_num))
-nums = set([str(i) for i in range(int(change_num) + 1)])
-nums.remove('0')
+nums = set([str(i) for i in range(1, int(max_num) + 1)])
 print()
-
 while True:
     answer_user = input('Нужное число есть среди вот этих чисел: ')
     if answer_user == 'Помогите!':
