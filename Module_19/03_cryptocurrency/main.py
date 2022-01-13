@@ -43,4 +43,22 @@ data = {
         }
     ]
 }
-# TODO Здесь писать код
+
+data['tokens'][0]['fst_token_info']['name'] = 'doge'
+
+print([key for key in data.keys()])
+print([value for value in data.values()])
+
+data['ETH']['total_diff'] = 100
+print(data['ETH'])
+
+print(data['tokens'][0]['fst_token_info'])
+
+data['tokens'][0].pop("total_out")
+data['ETH']['total_out'] = data['tokens'][1].pop("total_out")
+print(data['ETH'])
+
+data['tokens'][1]["sec_token_info"]['total_price'] = data['tokens'][1]["sec_token_info"].pop('price')
+print(data['tokens'][1]["sec_token_info"])
+
+# принято

@@ -24,4 +24,13 @@ store = {
     ],
 }
 
-# TODO Здесь писать код
+for key in goods:
+    id_item = goods[key]
+    summ = 0
+    summ_item = 0
+    for dct in store[id_item]:
+        summ += dct['quantity'] * dct['price']
+        summ_item += dct['quantity']
+    print(f'{key} - {summ_item} шт, стоимость {summ} руб')
+
+# принято
