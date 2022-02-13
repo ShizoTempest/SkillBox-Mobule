@@ -19,26 +19,19 @@ students = {
     }
 }
 
-
 def f(dict):
     lst = []
     string = ''
     for i in dict:
-        lst += (dict[i]['interests'])
+        lst.extend(dict[i]['interests'])
         string += dict[i]['surname']
-    cnt = 0
-    for s in string:
-        cnt += 1
+    cnt = len(string)
     return lst, cnt
-
 
 pairs = []
 for i in students:
-    pairs += (i, students[i]['age'])
+    pairs.append((i, students[i]['age']))
+print(pairs)
 
-
-my_lst = f(students)[0]
-l = f(students)[1]
+my_lst, l = f(students)
 print(my_lst, l)
-
-# TODO исправить код
