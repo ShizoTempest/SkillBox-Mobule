@@ -4,4 +4,8 @@ players = {
     ("Rob", "Bobbin"): (12, 8, 2)
 }
 
-# TODO здесь писать код
+figny = []
+for i in players:
+    figny.append(i + players[i])
+
+print(figny)
