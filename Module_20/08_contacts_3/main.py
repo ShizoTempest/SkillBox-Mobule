@@ -26,3 +26,6 @@ while True:
             print('Список пуст')
         else:
             print(new_list)
+
+
+# зачтено

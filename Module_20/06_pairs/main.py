@@ -15,3 +15,6 @@ print("Новый список:", result)
 #print('Оригинальный список:', old_list)
 #new_list = [*map(tuple, zip(old_list[::2], old_list[1::2]))]
 #print('Новый список:', new_list)
+
+
+# зачтено
