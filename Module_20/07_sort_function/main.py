@@ -1,9 +1,7 @@
 def tpl_sort(key):
-    if all(key):
-        key = sorted(key)
-        list_num = tuple(key)
-        return list_num
-    else:
-        return ()
+    if all([True if isinstance(x, int) else False for x in key]):
+        key = tuple(sorted(key))
+        return key
+    return key
 
 print(tpl_sort((6, 3, -1, 8.5, 4, 10, -5)))
