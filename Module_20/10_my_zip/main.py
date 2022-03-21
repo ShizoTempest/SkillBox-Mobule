@@ -45,6 +45,7 @@
 # for index in pairs:
 #     print(index)
 
+
 def min_len(words, symbol):
     return min(len(words), len(symbol))
 
