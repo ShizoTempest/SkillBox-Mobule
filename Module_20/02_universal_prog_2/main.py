@@ -19,3 +19,8 @@ def crypto(elem):
     return lst
 
 print(crypto('О Дивный Новый мир!'))
+<<<<<<< HEAD
+=======
+
+# зачтено
+>>>>>>> main
