@@ -19,10 +19,17 @@ students = {
     }
 }
 
+<<<<<<< HEAD
+def f(human):
+    lst = []
+    string = ''
+    for i in human:
+=======
 def f(dict):
     lst = []
     string = ''
     for i in dict:
+>>>>>>> main
         lst.extend(dict[i]['interests'])
         string += dict[i]['surname']
     cnt = len(string)
@@ -35,6 +42,9 @@ print(pairs)
 
 my_lst, l = f(students)
 print(my_lst, l)
+<<<<<<< HEAD
+=======
 
 # зачтено
 # dict - зарезервированное имя. Впредь избегай ситуаций и не давай переменным имена функций.
+>>>>>>> main

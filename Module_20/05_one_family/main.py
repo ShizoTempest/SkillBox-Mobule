@@ -13,5 +13,8 @@ for sur_name in family:
             print(sur_name[0], sur_name[1], family[sur_name])
     else:
         print(sur_name[0], sur_name[1], family[sur_name])
+<<<<<<< HEAD
+=======
 
 # зачтено
+>>>>>>> main

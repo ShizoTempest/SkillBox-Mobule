@@ -18,19 +18,28 @@ for time in range(number_rows):
     else:
         score_table[name] = [ball, time]
 
+<<<<<<< HEAD
+scores = list(score_table.items())
+scores.sort(key=score_key, reverse=True)
+
+=======
 print(score_table)
 
 scores = list(score_table.items())
 scores.sort(key=score_key, reverse=True)
 print(scores)
+>>>>>>> main
 print('\nИтоги соревнований:')
 
 for winner_index in 0, 1, 2:
     print(f' { winner_index + 1 } место { scores[winner_index][0] } ', end=' ')
     print(f'( { scores[winner_index][1][0] } )', sep='')
+<<<<<<< HEAD
+=======
 
 
 # зачтено. Умножение на 100000000 в функции - это костыль. Старайся избегать подобных решений.
 # Сортировка словарей может иметь более читабельный вид.
 
 # Ха! Если бы. Я безпонятия тогда как иначе.
+>>>>>>> main
