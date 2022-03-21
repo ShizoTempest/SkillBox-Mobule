@@ -19,32 +19,22 @@ students = {
     }
 }
 
-<<<<<<< HEAD
-def f(human):
-    lst = []
-    string = ''
-    for i in human:
-=======
 def f(dict):
     lst = []
-    string = ''
+    length = 0
     for i in dict:
->>>>>>> main
-        lst.extend(dict[i]['interests'])
-        string += dict[i]['surname']
-    cnt = len(string)
-    return lst, cnt
+        if dict[i]['interests'] not in lst:
+            lst.extend(dict[i]['interests'])
+        length += len(dict[i]['surname'])
 
-pairs = []
-for i in students:
-    pairs.append((i, students[i]['age']))
-print(pairs)
+    return lst, length
 
-my_lst, l = f(students)
-print(my_lst, l)
-<<<<<<< HEAD
-=======
 
-# зачтено
-# dict - зарезервированное имя. Впредь избегай ситуаций и не давай переменным имена функций.
->>>>>>> main
+
+print('Список пар «ID студента — возраст»')
+for i_key, i_val in students.items():
+    print(f'{i_key} - {i_val["age"]}')
+
+my_lst, length = f(students)
+
+print('\nПолный список интересов всех студентов:', my_lst, '\nОбщая длина всех фамилий студентов:', length)
