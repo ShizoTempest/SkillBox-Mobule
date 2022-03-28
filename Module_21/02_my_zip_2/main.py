@@ -9,3 +9,6 @@ num_tuple = tuple(num_tuple.split(', '))
 
 pairs = ((word[counter], num_tuple[counter]) for counter in range(min_len(word, num_tuple)))
 print(pairs)
+
+# TODO Условия задачи не выполнены: нет проверки ввода данных. Здесь не обязателно использовать рекурсию, но,
+#  нужно найти любой оптимальный способ, чтобы решить эту задачу максимально универсально

@@ -23,3 +23,5 @@ for i in range(num_pos + 1):
         print(next(generet_fibi)) #Во втором задействуй
     else:
         next(generet_fibi)
+
+# TODO Примеры не работают. Посмотри видеоурок внимательнее и прорешай задачи для отработки навыков.

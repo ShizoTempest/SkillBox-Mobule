@@ -3,3 +3,5 @@ def printRange(num):
 
 num_user = int(input('Введите num: '))
 printRange(num_user)
+
+#  TODO У тебя тема - Рекурсия. Используй рекурсию для выполнения задачи.
